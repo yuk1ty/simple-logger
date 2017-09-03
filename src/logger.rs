@@ -67,7 +67,7 @@ impl Logging for Logger {
     }
 }
 
-#[derive(Debug, PartialEq, Copy, Clone)]
+#[derive(Debug, Copy, Clone)]
 pub enum NotificationLevel {
     Trace = 0,
     Debug = 1,
